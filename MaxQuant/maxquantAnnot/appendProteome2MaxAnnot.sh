@@ -44,5 +44,5 @@ python3 padMaxAnnot.py "maxquantAnnot.txt.new" > "maxquantAnnot.txt.padded"
 gzip -c "maxquantAnnot.txt.padded" > "maxquantAnnot.txt.gz"
 
 # delete temp files
-#rm "tmpAnnot.txt" "tmpMapping.txt" "maxquantAnnot.txt.new" "maxquantAnnot.txt.padded" ${proteome}".gene2acc"
+rm "tmpAnnot.txt" "tmpMapping.txt" "maxquantAnnot.txt.new" "maxquantAnnot.txt.padded" ${proteome}".gene2acc"
 
